@@ -14,7 +14,7 @@ Make Ubuntu up-to-date including the latest stable kernel:
 
 Install the core packages required to build librealsense binaries and the affected kernel modules:
 
-		sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev
+		sudo apt-get install libssl-dev libusb-1.0-0-dev libudev-dev pkg-config libgtk-3-dev v4l-utils
 
 Cmake Note: certain librealsense CMAKE flags (e.g. CUDA) require version 3.8+ which is currently not made available via apt manager for Ubuntu LTS.
 Install build tools
@@ -47,9 +47,6 @@ Clone the librealsense2 repo
     
 
 
-Install v4l2-ctl 
-
-		sudo apt install v4l-utils
 
 
 Run Intel Realsense permissions script from librealsense2 root directory:
