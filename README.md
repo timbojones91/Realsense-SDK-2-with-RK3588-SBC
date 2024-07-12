@@ -24,18 +24,18 @@ Unplug any connected Intel RealSense camera and run:
 
 Note:
 
-    on graphic sub-system utilization:
-    glfw3, mesa and gtk packages are required if you plan to build the SDK's OpenGL-enabled examples.
-    The librealsens2e core library and a range of demos/tools are designed for headless environment deployment.
+on graphic sub-system utilization:
+glfw3, mesa and gtk packages are required if you plan to build the SDK's OpenGL-enabled examples.
+The librealsens2e core library and a range of demos/tools are designed for headless environment deployment.
 
-    libudev-dev installation is optional but recommended,
-    when the libudev-dev is installed the SDK will use an event-driven approach for triggering USB detection and enumeration,
-    if not the SDK will use a timer polling approach which is less sensitive for device detection.
+libudev-dev installation is optional but recommended,
+when the libudev-dev is installed the SDK will use an event-driven approach for triggering USB detection and enumeration,
+if not the SDK will use a timer polling approach which is less sensitive for device detection.
 
 
 Clone/Download the latest stable version of librealsense2 in one of the following ways:
 
-    Clone the librealsense2 repo
+Clone the librealsense2 repo
 
     git clone https://github.com/IntelRealSense/librealsense.git
 
