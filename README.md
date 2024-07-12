@@ -1,6 +1,8 @@
 
 << HOW TO INSTALL REALSENSE SDK 2.0 WITH RK3588>>
 
+NOTE: Ive used ubuntu-rockchip 22.04 from joshua riek with a rock5A sbc.
+
 
 
 Make Ubuntu up-to-date including the latest stable kernel:
