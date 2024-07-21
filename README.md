@@ -51,7 +51,8 @@ Clone the librealsense2 repo
 
 Run Intel Realsense permissions script from librealsense2 root directory:
 
-		./scripts/setup_udev_rules.sh
+	cd librealsense		
+  	./scripts/setup_udev_rules.sh
 
 Notice: You can always remove permissions by running: ./scripts/setup_udev_rules.sh --uninstall
 
